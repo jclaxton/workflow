@@ -1,4 +1,4 @@
-import type {Item} from "~/model/Item";
+import type {WorkflowItem} from "~/model/WorkflowItem";
 
 export type User = { name: string };
 export async function getUser() {
@@ -26,8 +26,8 @@ export async function getWorkshops() {
   ];
 }
 
-export function getItems(): Promise<Item[]> {
-  return new Promise<Item[]>((resolve, reject) => {
+export function getItems(): Promise<WorkflowItem[]> {
+  return new Promise<WorkflowItem[]>((resolve, reject) => {
     resolve([
       {
         id: 1001,

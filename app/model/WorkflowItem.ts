@@ -1,4 +1,4 @@
-export type Item = {
+export type WorkflowItem = {
     id: number;
     name: string;
     currentAction: string;
