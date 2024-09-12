@@ -1,3 +1,7 @@
+# Workflow coding assessment
+
+This project defines a coding assessment for UISG. It's copied from a [Remix template](https://github.com/remix-run/examples/tree/main/sharing-loader-data). The readme for the orinigal temple is below. 
+
 # Sharing Loader Data
 
 Sometimes you have data loaded in one route and you want to access that data in another route's component that's active on screen. You can do this via the `useMatches` hook.
