@@ -1,6 +1,8 @@
 # Workflow coding assessment
 
-This project defines a coding assessment for UISG. It's copied from a [Remix template](https://github.com/remix-run/examples/tree/main/sharing-loader-data). The readme for the orinigal temple is below. 
+This project defines a coding assessment for UISG. It's copied from a [Remix template](https://github.com/remix-run/examples/tree/main/sharing-loader-data). The readme for the original template is below. 
+
+TODO: add instructions when finalized
 
 # Sharing Loader Data
 
