@@ -1,3 +1,5 @@
+import type {Item} from "~/model/Item";
+
 export type User = { name: string };
 export async function getUser() {
   return { name: "Rachel" };
@@ -22,4 +24,66 @@ export async function getWorkshops() {
       description: `Let's cook some chicken! 🍗`,
     },
   ];
+}
+
+export function getItems(): Promise<Item[]> {
+  return new Promise<Item[]>((resolve, reject) => {
+    resolve([
+      {
+        id: 1001,
+        name: "Helen's Timesheet",
+        currentAction: "Submit Time",
+        assignee: "HP",
+        dueDate: "9/12/2024",
+        status: "Rejected",
+        lastUpdatedDate: "9/11/2024",
+        lastUpdatedBy: "SZ",
+        attachments: ["Doc Name"],
+      },
+      {
+        id: 1002,
+        name: "John's Timesheet",
+        currentAction: "Submit Time",
+        assignee: "SZ",
+        dueDate: "9/13/2024",
+        status: "Pending Approval",
+        lastUpdatedDate: "9/11/2024",
+        lastUpdatedBy: "SZ",
+        attachments: ["Doc Name"],
+      },
+      {
+        id: 1003,
+        name: "Ryan's Timesheet",
+        currentAction: "Submit Time",
+        assignee: "SZ",
+        dueDate: "9/13/2024",
+        status: "Pending Approval",
+        lastUpdatedDate: "9/11/2024",
+        lastUpdatedBy: "SZ",
+        attachments: ["Doc Name"],
+      },
+      {
+        id: 1004,
+        name: "Joe's Timesheet",
+        currentAction: "Submit Time",
+        assignee: "SZ",
+        dueDate: "9/13/2024",
+        status: "Pending Approval",
+        lastUpdatedDate: "9/11/2024",
+        lastUpdatedBy: "SZ",
+        attachments: ["Doc Name"],
+      },
+      {
+        id: 1005,
+        name: "Esten's Timesheet",
+        currentAction: "Submit Time",
+        assignee: "SZ",
+        dueDate: "9/13/2024",
+        status: "Pending Approval",
+        lastUpdatedDate: "9/11/2024",
+        lastUpdatedBy: "SZ",
+        attachments: ["Doc Name"],
+      },
+    ]);
+  });
 }
