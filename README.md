@@ -6,7 +6,7 @@ This project defines a coding assessment for UISG. It's copied from a [Remix tem
 
 In this exercise, you will build pages for the "workflow" section of our application. Workflow serves a similar purpose to ticketing systems like Jira, but it's fully integrated with our broader application. So tools used to work on a given ticket can be accessed on the same pages used to track them.
 
-Workflow tracks multi-step, collaborative processes. At each step in the process, the item is assigned to a specific person. The assignee can use other tools within the application to work on that item and push it onto the next step.  This example
+Workflow tracks multistep, collaborative processes. At each step in the process, the item is assigned to a specific person. The assignee can use other tools within the application to work on that item and push it onto the next step.  This example
 
 ## Functional Requirements
 
@@ -46,11 +46,11 @@ Outside of Remix (and React itself), you are free to use whatever tools and libr
 
 Please submit both:
 - A video of your completed page demonstrating the required functionality.
-- A link to your Github repo.
+- A link to your GitHub repo.
 
 # (Start of original template readme) Sharing Loader Data
 
-Sometimes you have data loaded in one route and you want to access that data in another route's component that's active on screen. You can do this via the `useMatches` hook.
+Sometimes you have data loaded in one route, and you want to access that data in another route's component that's active on screen. You can do this via the `useMatches` hook.
 
 ## Preview
 
@@ -73,6 +73,6 @@ This is a simple "workshop" app which has a "user" and a list of workshops. The 
 
 ## Notes:
 
-- The `app/routes/workshops/$workshopId.tsx` route has a loader in it to determine whether the workshop exists. This is important and does not defeat the purpose of sharing the data. The loader runs on the server and we benefit by sharing the data because we don't have to send the data to the client.
+- The `app/routes/workshops/$workshopId.tsx` route has a loader in it to determine whether the workshop exists. This is important and does not defeat the purpose of sharing the data. The loader runs on the server, and we benefit by sharing the data because we don't have to send the data to the client.
 - A future version of Remix will provide an `id` on the `matches` which will make it easier to determine which match you want to access.
 - You could create a custom hook for accessing specific matches and add type assertion functions to ensure type safety rather than use `as` casting.
