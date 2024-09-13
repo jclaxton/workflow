@@ -45,10 +45,10 @@ app/data.server.ts contains a function that returns a Promise to the data. Use t
 Outside of Remix (and React itself), you are free to use whatever tools and libraries you see fit. Icons in the Figma designs are from Material UI.
 
 Please submit both:
-•	A video of your completed page demonstrating the required functionality.
-•	A link to your Github repo.
+- A video of your completed page demonstrating the required functionality.
+- A link to your Github repo.
 
-# Sharing Loader Data
+# (Start of original template readme) Sharing Loader Data
 
 Sometimes you have data loaded in one route and you want to access that data in another route's component that's active on screen. You can do this via the `useMatches` hook.
 
