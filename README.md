@@ -30,7 +30,7 @@ Each card represents an item, they are sorted into columns according to the curr
 
 ![list_view_1.png](assets/list_view_1.png)
 
-- Clicking a row should change the text in below to refer to the selected item. (Normally, these panels would either contain further information about the item, or controls to complete the required task.) The text in the placeholders should indicate which item was clicked. E.g. “Showing details of Helen’s Timesheet”
+- Clicking a row should change the "Select item..." text below to refer to the selected item. (Normally, these panels would either contain further information about the item, or controls to complete the required task.) The text in the placeholder panel should indicate which item was clicked. E.g. “Showing details of Helen’s Timesheet”
 
 ![list_view_2.png](assets/list_view_2.png)
 
