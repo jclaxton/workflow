@@ -4,7 +4,7 @@ This project defines a coding assessment for UISG. It's copied from a [Remix tem
 
 ## Overview
 
-In this exercise, you will build pages for the "workflow" application. Workflow serves a similar purpose to ticketing systems like Jira, but it's fully integrated with a broader application. So tools used to work on a given ticket can be accessed on the same pages used to track them.
+In this exercise, you will build pages for a "workflow" application. Workflow serves a similar purpose to ticketing systems like Jira, but it's fully integrated with a broader application. So tools used to work on a given ticket can be accessed on the same pages used to track them.
 
 Workflow tracks multistep, collaborative processes. At each step in the process, the item is assigned to a specific person. The assignee can use other tools within the application to work on that item and push it onto the next step. This example uses timesheet tracking: employees record and submit their timesheets, which then need to be reviewed by their supervisor. The focus of this exercise is to build two (mostly static) pages that display a set of tickets in different ways.
 
