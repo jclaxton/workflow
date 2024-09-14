@@ -4,17 +4,17 @@ This project defines a coding assessment for UISG. It's copied from a [Remix tem
 
 ## Overview
 
-In this exercise, you will build pages for the "workflow" section of our application. Workflow serves a similar purpose to ticketing systems like Jira, but it's fully integrated with our broader application. So tools used to work on a given ticket can be accessed on the same pages used to track them.
+In this exercise, you will build pages for the "workflow" application. Workflow serves a similar purpose to ticketing systems like Jira, but it's fully integrated with a broader application. So tools used to work on a given ticket can be accessed on the same pages used to track them.
 
-Workflow tracks multistep, collaborative processes. At each step in the process, the item is assigned to a specific person. The assignee can use other tools within the application to work on that item and push it onto the next step.  This example
+Workflow tracks multistep, collaborative processes. At each step in the process, the item is assigned to a specific person. The assignee can use other tools within the application to work on that item and push it onto the next step. This example uses timesheet tracking: employees record and submit their timesheets, which then need to be reviewed by their supervisor. The focus of this exercise is to build two (mostly static) pages that display a set of tickets in different ways.
 
 ## Functional Requirements
 
-The screenshots below show two different views (created in Figma) of the same data. Please recreate these pages as close to pixel-perfect as possible. You do not need to implement every interactive control shown, just those specified below. Data for these pages will be provided.
+The screenshots below show two different views (created in Figma) of the same data. Please recreate these pages as close to pixel-perfect as possible. You do not need to implement every interactive control shown, just those specified below. Data for these pages is provided in the repo.
 
 ### Page 1 - Card View
 
-Each card represents an item, they are sorted into columns according to the current required action.  
+Each card represents an item, they are sorted into columns according to the current step.  
 - Implement dropdowns at the top of the page to filter and sort the cards.
   - Filter options can be sourced from the data. 
   - 'Sort by' should include "Most Urgent," "Least Urgent," and "Assignee."  (Assignee is alphabetical.)
